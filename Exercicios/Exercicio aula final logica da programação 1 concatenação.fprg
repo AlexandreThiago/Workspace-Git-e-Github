@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alexandree"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 01:19:44 "/>
+        <attribute name="created" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjM7IjEyOjQzOjQxICI7MjcxMg=="/>
+        <attribute name="edited" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjM7IjEyOjQ1OjExICI7MTtBbGV4YW5kcmVlO1VTRVItUEM7MjAyMi0wMy0yMjsiMDI6NTg6MjggIjs1NTk5"/>
+        <attribute name="edited" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjM7IjAxOjE5OjQ0ICI7NDsyODI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="Idade" type="Integer" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;qual e o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;qual &#233; o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;qual &#233; a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;quais s&#227;o suas notas?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <output expression="&quot;o seu nome e? &quot; &amp; nome &amp; &quot; e o seu sobrenome &#233;? &quot; &amp; sobrenome &amp; &quot; Sua idade &#233;? &quot; &amp; idade &amp; &quot; Quais s&#227;o suas notas? &quot; &amp; nota1+nota2+nota3+nota4 &amp; &quot; a sua media &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

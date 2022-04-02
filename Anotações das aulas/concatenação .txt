@@ -1,0 +1,2 @@
+concatenação unir uma sequencia de caracteres, exemplo nome e sobre nome (união de 2 strings)
+utilizado para concatenação " & ou + ou . " depende da linguagem de programação utilizada.

@@ -1,0 +1,19 @@
+exemplificação de estudo de caso 1 e 2
+
+suposição de cenario perdido na floresta
+necessita sobreviver e encontrar resgate
+
+como resolver o problema usando o pensamento computacional
+identificar mecanismos para sobreviver
+recursos comuns
+detalhes mais importantes para ficar vivo
+
+sobrevivencia agua, comida e abrigo. decomposição do problema original
+como encontrar agua? chuva ou nascente de agua doce
+como arrumar comida? coletar frutas ou caçar
+como arrumar abrigo? localização, posição, lugar seco e quente
+
+depois de arrumar agua o que preciso -> se nao for potavel preciso de fogo para ferver agua e nao dar problemas
+'' comida necessita de fogo tambem
+resumindo tudo: demonta o problema em sub grupos partes menores para ir resolvendo aos poucos e nao ter problemas durante todo o percurso.
+focar nos aspectos principais 

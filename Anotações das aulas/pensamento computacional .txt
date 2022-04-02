@@ -1,0 +1,141 @@
+pensamento computacional é um processo de pensamento estruturado que envolve a resolução de um problema e que seja executado por um computador
+formulação e resolução de problemas sistematico e eficiente deve ser aplicado de uma forma q um ser humano e uma maquina podem responder
+
+baseado em 4 pilares sendo eles
+decomposição, reconhecimentos de padroes, abstração e design de algoritimos
+
+variacoes dos pilares 
+raciocinio logico
+refinamento
+
+raciocinio logico e um tipo de pensamento estruturado que permite encontrar a conclusao ou determinar a resolução de um problema
+
+3 tipos 
+indução 
+dedução 
+abdução 
+
+
+inferencia 
+sintetica abdução e indução
+analitica dedução
+
+
+decomposição: estrategia processo de quebrar e determinar partes menores e gerenciaveis analise.
+combinar os elementos recompondo o problema original sintese
+ordem de execução de tarefas menores pode ser sequencial existe uma dependencia ou ordem.
+paralelo executar as tarefas de forma mais paralela +efeciena -tempo
+
+detectar variaveia apartir desses pequenos problmeas e seguimentar esses problemas dentro de problemas menores
+entender o conceito pra fazer sozinho
+
+decompor= deixar o problema principal a segundo passo identificar caracteristicas e dependencias e os componentes.
+exemplos
+cozinhar identificando os ingredientes
+determinar as etapas sequencial ou paralelo
+executar cada etapa
+agregar os ingredientes para finalizar.
+
+em base identificar componentes
+papel de cada componente
+interdependencia das peças 
+funcionamento do sistema
+
+exemplo criar um app
+finalidade
+interface
+funcionalidades
+pre requisitos
+definição de componentes e etapas
+
+
+exemplo artigo:
+o que sera abordado
+estrutura
+conteudo de cada topico
+textos de conexão
+definição de componentes e etapas
+
+
+Reconhecimento de padroes
+modelo base
+estrutura invariante
+repetição
+
+
+como o computador reconhece padroes?
+representação de atributos, dar dados pra ele saber o que significa o objeto
+aprendizado conceito associado ao objeto
+armazenar dados
+regras de decisão o dev determina quais sao as regras
+
+aplicações
+classificação de dados 
+reconhecimento de imagem
+reconhecimento de fala
+análise de cenas 
+classificação de documentos
+
+
+abstração 
+ abstrair: Observar um ou mais elementos avaliando caracteristicas e propriedades em separado
+ abstração: Processo intelectual de isolamento de um objeto da realidade
+ generalizar Tornar se geral mais amplo.
+generalização/abstração pela logica e a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenomenos similares
+como classificar esses dados
+com caracteristicas
+pontos essenciais 
+generalizarXdetalhar
+
+exemplos:
+por onde começar a limpar o terreno é preciso identificar as caracteristicas do terreno pra depois saber por onde começar
+
+algoritimos:
+o computador recebe instrucoes do operador que recebe manipula e armazena os dados atraves de programas que sao feitos por devs que dizem o que e pro computador fazer para o computador resolver e executar o problema de maneira eficiente.
+algoritimo vem de um processo de resolução de problema "step by step" passo a passo,
+desenvolvimento de um programa
+analise estudo e definição dos dados de entrada e saida quais sao os dados que vao compor meu problema 
+algoritmo e o que vai descrever o problema por meio de ferramentas diferentes de instruçoes detalhadas dadas por nos para compor o algoritmo
+codificação algoritmo e codificado de acordo com a linguagem de programação escolhida.
+
+algoritmo= 
+sequencia de passos com objetivo definido
+execução de tarefas de forma especifica para que o computador entenda nao existe subjetividade 
+conjunto de operações que resultam em uma sucessão finita de açoes
+
+exemplo dia a dia:
+preparar um sanduiche passo a passo para criar o sanduiche.
+trocar lampada passo a passo novamente para resolver o problema de forma otimizada
+instruçoes executadas passo a passo para concluiir uma tarefa
+
+como construir
+compreenção do problema
+definição da entrada
+definir processamento calculos/soluçoes
+definir dados de saida
+utilizar um metodo de construção, nao é um programa nao esta codificado, necessita estrutura para definir e refinar o algoritmo, realização de testes para otimizar o algoritmo.
+teste e diagnostico
+
+metodos de construção (nao codificado usando passo a passo)
+narrativa linguagem natural diversas interpretações possiveis isso e um problema pois cada um pensa de maneira diferente e interpreta de maneira diferente
+fluxograma: utilização de simbolos pré-definidos conhecimento previo da estrutura de simbolos
+pseudocódigo: passos a serem seguidos portugol por exemplo, mais proximo da codificaçãop usado quando esta aprendendo a programar.
+
+exemplo: multiplicação de 2 numeros:
+passo 1 - recebe valores
+passo 2 - multiplica
+passo 3 - imprime resultado 
+
+inicio, n1*n2, m=n1*n2, m=, fim
+
+exemplo 2:
+ media de alunos
+passo 1 recebe valores
+passo 2 media aritimetica
+passo 3 imprime resultado
+passo 4 regra de aprovação
+
+Instrução de passo a passo para resolver um problema!.
+para resolver problema de pensamento computacional NAO E NECESSARIO UTILIZAR TODOS OS PADROES PODE SER RESOLUCIONADO POR 1 PADRAO SÓ.
+
+

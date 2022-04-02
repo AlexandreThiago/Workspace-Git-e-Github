@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alexandree"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 12:52:27 "/>
+        <attribute name="created" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjM7IjEyOjQzOjQxICI7MjcxMg=="/>
+        <attribute name="edited" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjM7IjEyOjQ1OjExICI7MTtBbGV4YW5kcmVlO1VTRVItUEM7MjAyMi0wMy0yMjsiMDI6NTg6MjggIjs1NTk5"/>
+        <attribute name="edited" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjM7IjEyOjUyOjI3ICI7MjsyODI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;qual e o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;qual &#233; o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;o seu nome e? &quot; &amp; nome &amp; &quot; e o seu sobrenome &#233;? &quot; &amp; sobrenome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

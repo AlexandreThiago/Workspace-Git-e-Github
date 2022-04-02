@@ -1,0 +1,6 @@
+matrizes e vetores
+
+matriz coleção de variaveis do mesmo tipo
+indice sempre iniciado por 0
+
+

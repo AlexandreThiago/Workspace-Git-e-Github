@@ -1,0 +1,21 @@
+real
+inteiro
+escreva
+leia
++ no lugar do &
+usar sempre () pra iniciar e fechar a linha de código.
+"se" <-- caso de desvio (verdadeiro) para verdadeiro utiliza "{"
+exemplo " se (media>=7) { 
+ escreva (" Parabéns!! Você foi aprovado!! ") } ".
+para pular linha "\n"
+
+exemplo: escreva (" Sua média é: " + media) 
+		se (media >=7) {
+			escreva ("\n" + " Parabéns!! Você foi aprovado " )
+		} 
+
+exemplo de desvio FALSO: senao
+comando: senao
+
+
+para adicionar comentarios ao portugol utilizar "//" 

@@ -1,0 +1,70 @@
+git init para dar inicio meio q cuidar do codigo alem de criar o .git ele inicializa o repositorio, estamos criando um repositorio no git na pasta especifica.
+git add para addicionar as coisas, utilizado no livro de receitas pois o artigo estava untraked o git ainda nao sabia da existencia e o git add moveu o arquivo direto pra area q ele estava esperando p ser utilizado de alguma maneira
+git commit cria um commit
+
+git status ajuda a monitorar os status dos arquivos "untracked, modified, staged"
+mv+ nome do arquivo para mover de um lugar pra outro
+exemplo 
+mv strogonoff\ de\ frango.md ./receitas/
+git add * move todos os arquivos modificados para staged
+git config --list
+lista de configuraçoes q estao no meu git 
+git config --global --unset user.email
+git pull origin master para o git tentar juntar os arquivos
+
+git add+ nome do arquivo 
+git add * move todos os arquivos para staged
+git . move todos os arquivos para staged
+cd= possibilita a navegação por pastas dentro do cmd adicionar / para navegar por um lugar especifico
+dir= lista as pastas do diretorio
+mkdir= criar pasta direto no terminal
+del/rmdir=
+para voltar cd ..
+para limpar o terminal cls
+cd workspace para entrar dentro da pasta no terminal
+echo para exibir uma msg digitada pelo usuario reproduzir o que foi escrito
+echo hello > hello.txt
+del nome da pasta ou arquivo para deletar um arquivo ou pasta criada pelo terminal so funciona para deleter ARQUIVOS dentro do diretorio
+rmdir + nome da pasta para remover o repositorio com todos os arquivos e a pasta
+
+flags sao complementos que vc adiciona a essa base de codigos para complementar acrescentam modificam ou formatam a forma que o comando sai pra gente
+
+
+
+para visualizar o arquivo depois cuidado pelo git adc flag -a
+ls listar
+add adicionar
+para adicionar configuracoes iniciais ao git como user name e senha " git config --global (para todos os lugares nao so para o terminal especifico) user.email "email aq" 
+para colocar user.name + nick
+arquivos html estrutura de uma pg na internet
+markdown e uma forma "humanizada" de escrever html sempre colocar "#" simbolizando o valor das linhas quantidade igual ao numero da linha exemplo #linha 1 ##linha2 ##linha3 ...
+-m p msg
+
+tracked os arquivos q o git tem noção q ja existem e estao em funcionamento
+e untrackd os que ele nao tem conhecimento
+
+staged aonde ficam os arquivos q estao se preparando para fazer parte de um outro tipo de agrupamento 
+unmodified sao os arquivos que nao foram modificados
+modified sao os arquivos que ja foram modificados pelo sha1
+quando o arquivo e movido para o staged ele esta se preparando para fazer parte do commit
+commit retorna todos os arquivos para unmodified pois ja salvou e modificou tira um snapshot do cod dentro do commit
+existe um ciclo entre unmodified, modified, staged dps commit e volta para unmodified
+
+
+no ambiente de desenvolvimento existe o repositorio de trabalho, os arquivos sempre vao estar alternando entre o repositorio de trabalho e entre o staging area enquanto esta sendo modificado
+quando feito o commit ele integra o repositorio local que por sua vez pode ser empurrado para um repositorio remoto
+repositorio local so vai ser composto por commit se nao estiver em um commit nao vai para o repositorio remoto
+para transferir para o git hub os arquivos do repositorio remoto
+git remote add origin+url do github
+git push 
+
+markedown """"formatação usada no github"""""
+
+
+conflito de murch git hub nao altera nem inseri nada do cod modifica vai apenas permitir que vc resolva manualmente o conflito pra depois dar um push pro github
+para clonar um repositorio
+git clone+ url
+para mostrar repositorios ocultos ls -a
+git remote -v mostra pra onde o repositorio clonado esta apontando se feitas alterações o repositorio saberia pra onde esta apontado
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alexandree"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-22 04:09:22 "/>
+        <attribute name="created" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjI7IjAzOjQyOjQ1ICI7MjcxNA=="/>
+        <attribute name="edited" value="QWxleGFuZHJlZTtVU0VSLVBDOzIwMjItMDMtMjI7IjA0OjA5OjIyICI7MjsyODIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, mar&#231;o, abril, media" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="mar&#231;o"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+mar&#231;o+abril)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5.000">
+                <then>
+                    <output expression="&quot;meus parab&#233;s voc&#234; vai receber um abono salarial e voc&#234; &#233; o funcionario do m&#234;s da empresa.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;infelizmente voc&#234; n&#227;o recebeu o abono salarial, nem o empregado do m&#234;s.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
